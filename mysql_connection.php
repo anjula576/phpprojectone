@@ -6,7 +6,7 @@ $conn = new mysqli(hostname: 'localhost', username: 'root', password: '', databa
 //  check the connection 
 if (!$conn) {
 
-
+//  if connection error show an error
     die(mysqli_error($conn));
 
 }
